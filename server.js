@@ -8,7 +8,7 @@ const io = require("socket.io")(server, {
     }
 });
 
-const port = 5000
+const port = process.env.PORT || 80
 
 app.get("/", (req, res) => {
     res.send("Hello World")
