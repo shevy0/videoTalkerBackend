@@ -29,7 +29,8 @@ io.on("connection", (socket) =>{
     socket.on('register-new-user', (data) => {
         peers.push({
             username: data.username, 
-            socketId: data.socketId
+            socketId: data.socketId,
+	    userid: data.userid
         });
 
         io.sockets.emit('broadcast', {
