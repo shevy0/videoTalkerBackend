@@ -12,4 +12,6 @@ Install project dependencies
 
 ### `npm start`
 
+Start listening on given port
+
 
