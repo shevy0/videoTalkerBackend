@@ -2,7 +2,7 @@
 
 A signaling server for videoTalker app.
 
-It's necessary to use ngrok, otherwise the server won't work properly.
+It's necessary to use ngrok, otherwise you won't be able to communicate with server.
 
 # Run 
 
